@@ -1,0 +1,27 @@
+.carousel-container
+	.slide-container
+		img(src="assets/img/carousel-image01.png").slide
+		img(src="assets/img/slider-title.png").title
+		img(src="assets/img/slider-caption.png").caption
+		img(src="assets/img/slider-caption.png").caption
+
+	.slide-container
+		img(src="assets/img/carousel-image02.png").slide
+		img(src="assets/img/slider-title.png").title
+		img(src="assets/img/slider-caption.png").caption
+
+	.slide-container
+		img(src="assets/img/carousel-image03.png").slide
+		img(src="assets/img/slider-title.png").title
+		img(src="assets/img/slider-caption.png").caption
+
+	button(onclick = "plusIndex(-1)").btn#prev
+		img(src="assets/img/icn_arrow-left.png")
+	button(onclick = "plusIndex(+1)").btn#next
+		img(src="assets/img/icn_arrow-right.png")
+
+	.dot-container
+		span(onclick="currentDot(1)").dot.dot-selector
+		span(onclick="currentDot(2)").dot.dot-selector
+		span(onclick="currentDot(3)").dot.dot-selector
+
